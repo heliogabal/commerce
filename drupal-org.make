@@ -401,8 +401,8 @@ projects[date][subdir] = "contrib"
 ;projects[yottaa][version] = 1.1
 ;projects[yottaa][subdir] = "contrib"
 
-;projects[menu_attributes][version] = 1.0-rc2
-;projects[menu_attributes][subdir] = "contrib"
+projects[menu_attributes][version] = 1.0-rc2
+projects[menu_attributes][subdir] = "contrib"
 
 ;projects[fences][version] = "1.0"
 ;projects[fences][subdir] = "contrib"
