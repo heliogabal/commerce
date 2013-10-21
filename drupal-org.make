@@ -531,5 +531,5 @@ libraries[chosen][overwrite] = TRUE
 
 ; Profiler Library
 libraries[profiler][download][type] = "get"
-libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/prof$
+libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profiler-7.x-2.0-beta1.tar.gz"
 
