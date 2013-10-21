@@ -528,3 +528,8 @@ libraries[chosen][type] = "libraries"
 libraries[chosen][download][type] = "file"
 libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/archive/v0.9.15.zip"
 libraries[chosen][overwrite] = TRUE
+
+; Profiler Library
+libraries[profiler][download][type] = "get"
+libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/prof$
+
