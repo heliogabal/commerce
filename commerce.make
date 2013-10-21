@@ -8,7 +8,14 @@ projects[drupal][type] = "core"
 projects[drupal][download][type] = "get"
 projects[drupal][download][url] = "http://files.aegir.cc/dev/drupal-7.23.3.tar.gz"
 ; include the d.o. profile base
-includes[] = "drupal-org.make"
+;includes[] = "drupal-org.make"
+
+
+; include commerce profile from github
+projects[commerce][type] = "profile"
+projects[commerce][download][type] = "git"
+projects[commerce][download][url] = "https://github.com/heliogabal/commerce.git"
+projects[commerce][download][branch] = "master"
 
 ; Patches for Core
 ;projects[drupal][patch][] = "http://drupal.org/files/issues/install-redirect-on-empty-database-728702-36.patch"
