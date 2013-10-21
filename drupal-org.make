@@ -71,9 +71,6 @@ projects[field_group][subdir] = "contrib"
 projects[link][version] = "1.1"
 projects[link][subdir] = "contrib"
 
-projects[name][version] = "1.9"
-projects[name][subdir] = "contrib"
-
 projects[float_filter][version] = "1.0"
 projects[float_filter][subdir] = "contrib"
 
@@ -106,9 +103,6 @@ projects[better_formats][subdir] = "contrib"
 
 projects[breakpoints][version] = "1.1"
 projects[breakpoints][subdir] = "contrib"
-
-;projects[colorbox][version] = "2.4"
-;projects[colorbox][subdir] = "contrib"
 
 projects[diff][version] = "3.2"
 projects[diff][subdir] = "contrib"
@@ -481,13 +475,6 @@ projects[omega_kickstart][version] = 3.4
 
 
 ; +++++ Libraries +++++
-
-; ColorBox
-;libraries[colorbox][directory_name] = "colorbox"
-;libraries[colorbox][type] = "library"
-;libraries[colorbox][destination] = "libraries"
-;libraries[colorbox][download][type] = git
-;libraries[colorbox][download][url] = git://github.com/jackmoore/colorbox.git
 
 ; CKeditor
 libraries[ckeditor][directory_name] = "ckeditor"
